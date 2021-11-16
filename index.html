@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="addNames show">
+        <form id="addNameForm">
+            <input type="text" placeholder="name">
+            <button>addName</button>
+        </form>
+        <ul id="names">
+
+        </ul>
+        <button id="toExclude">Add exclusions</button>
+    </div>
+    <div class="exclude hide">
+        <h2>Check all players who should be exluded in for each person</h2>
+        <form id="excludeForm">
+            <div id="blocks"></div>
+            <button>See results!</button>
+        </form>
+    </div>
+    <div class="results hide">
+        <h1>results</h1>
+    </div>
+    <script src="./shuffleSanta.js"></script>
+    <script src="./createList.js"></script>
+    <script src="./addExlusions.js"></script>
+</body>
+</html>

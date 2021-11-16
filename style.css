@@ -1,0 +1,29 @@
+*{
+    font-family:"Comic Sans MS";
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body{
+    min-height: 100vh;
+    background:linear-gradient(120deg, red 0%, red 50%, green )
+}
+
+.addNames, .exclude, .results {
+    width:80vw;
+    background:white;
+    border-radius:5px;
+    border:1px solid black;
+    box-shadow: 5px 5px 10px 10px black;
+    margin:0 auto;
+}
+
+.hide {
+    display:none;
+}
+
+.show {
+    display:"block";
+}
